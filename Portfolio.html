@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sriram Portfolio</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="portfolio.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+
+<nav id="navbar">
+
+    <!-- LEFT LOGO -->
+    <div class="nav-left">
+        <div class="logo-box">S</div>
+    </div>
+
+    <!-- CENTER MENU -->
+    <div class="nav-center">
+        <ul>
+            <li><a href="#about"><span>01.</span> About</a></li>
+            <li><a href="#experience"><span>02.</span> Experience</a></li>
+            <li><a href="#projects"><span>03.</span> Work</a></li>
+            <li><a href="#contact"><span>04.</span> Contact</a></li>
+            <li><a href="#resume"><span>05.</span> Resume</a></li>
+        </ul>
+    </div>
+
+    <!-- RIGHT BUTTON -->
+    <div class="nav-right">
+        <a href="#" class="resume-btn">Resume</a>
+    </div>
+
+</nav>
+
+<!-- 🔹 HERO SECTION -->
+<section id="hero">
+    <p class="highlight">Hi, my name is</p>
+    <h1 class="hover-text">Sriram</h1>
+    <h2 class="hover-text">I am a backend developer using Java and frameworks.</h2>
+
+    <p>
+        I am a Computer Science student focused on full stack development 
+        and creating real-world applications.
+    </p>
+    <a href="#projects" class="btn">Check out my work</a>
+
+</section>
+<section id="about" class="hidden">
+
+    <h2 class="hover-text">01. About Me</h2>
+
+    <div class="about-content">
+
+        <div class="about-text">
+            <p>
+                Hello! I'm Sriram, a Computer Science student focused on backend 
+                development and full stack applications.
+            </p>
+
+            <p>
+                I enjoy building scalable systems using Java, Spring Boot, and 
+                modern web technologies. My goal is to create efficient and 
+                real-world impactful solutions.
+            </p>
+
+            <p>
+                Here are a few technologies I’ve been working with recently:
+            </p>
+
+            <ul>
+                <li>Java</li>
+                <li>Spring Boot</li>
+                <li>MySQL</li>
+                <li>HTML & CSS</li>
+            </ul>
+        </div>
+
+        <div class="about-image">
+            <img src="WhatsApp Image 2026-04-15 at 17.00.16 (1).jpeg" alt="Profile">
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<section id="experience">
+
+    <h2 class="hover-text">02.Expereince</h2>
+    <div class="about-container">
+
+        <!-- LEFT SIDE -->
+        <div class="about-left">
+            <h1>Sriram</h1>
+            <h3>Backend Developer</h3>
+
+            <p>
+                I am a backend developer using java and frameworks and real-world applications 
+                using Java and modern technologies.
+            </p>
+
+            <div class="about-nav">
+                <span>ABOUT</span>
+                <span>EXPERIENCE</span>
+                <span>PROJECTS</span>
+            </div>
+        </div>
+
+        <!-- RIGHT SIDE -->
+        <div class="about-right">
+
+            <!-- EXPERIENCE ITEM -->
+            <div class="exp-item">
+                <p class="year">2024 — PRESENT</p>
+
+                <div>
+                    <h3>Backend Developer · Self Projects</h3>
+
+                    <p>
+                        Working on backend systems, authentication modules, 
+                        and full stack applications using Java, MySQL, and REST APIs.
+                    </p>
+
+                    <div class="tags">
+                        <span>Java</span>
+                        <span>Spring Boot</span>
+                        <span>MySQL</span>
+                        <span>REST API</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="exp-item">
+                <p class="year">2023 — 2024</p>
+
+                <div>
+                    <h3>Full Stack Developer · Student Projects</h3>
+
+                    <p>
+                        Built web applications integrating frontend and backend 
+                        with focus on real-world use cases.
+                    </p>
+
+                    <div class="tags">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                        <span>Java</span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- 🔹 SOCIAL LINKS -->
+<div id="social">
+    <a href="https://github.com/GOGULA7" target="_blank">
+        <i class="fab fa-github"></i>
+    </a>
+
+    <a href="https://www.linkedin.com/in/gogula-sriram-3329552b2/" target="_blank">
+        <i class="fab fa-linkedin"></i>
+    </a>
+
+    <a href="#">
+        <i class="fab fa-twitter"></i>
+    </a>
+
+    <div class="social-line"></div>
+</div>
+
+
+<!-- 🔹 EMAIL -->
+<div id="email">
+    <a href="mailto:sriramgogula07@gmail.com">
+        sriramgogula07@gmail.com
+    </a>
+</div>
+
+<!-- 🔹 PROJECTS -->
+<section id="projects">
+    <h2>03.Work</h2>
+    
+
+    <div class="project-card hidden">
+    <h3>Authentication System</h3>
+    <p>Built a login/signup system using Java and MySQL.</p>
+
+    <div class="project-links">
+        <a href="#">🔗 Live</a>
+        <a href="#">💻 Code</a>
+    </div>
+</div>
+    <div class="project-card hidden">
+        <h3>Full Stack Web App</h3>
+        <p>Developed a web application with frontend and backend integration.</p>
+    </div>
+
+    <div class="project-card hidden">
+        <h3>Network Simulation</h3>
+        <p>Implemented a network-based communication system.</p>
+    </div>
+</section>
+
+<!-- 🔹 CONTACT -->
+<section id="contact">
+    <h2>04. Get In Touch</h2>
+    <p>Feel free to contact me!</p>
+    <form id="contact-form">
+
+    <input type="text" name="name" placeholder="Your Name" required>
+
+    <input type="text" name="number" placeholder="Your Number" required>
+
+    <input type="email" name="email" placeholder="Your Email" required>
+
+    <textarea name="message" placeholder="Your Message"></textarea>
+
+    <button type="submit">Submit and send message</button>
+
+</form>
+</section>
+
+<section id="contact" class="hidden">
+    <h2>OR</h2>
+
+    <p>You can directly message me on WhatsApp.</p>
+
+    <a href="https://wa.me/7416846145" target="_blank" class="btn">
+        Message Me on WhatsApp
+    </a>
+
+</section>
+
+<section id ="resume" class="hidden">
+    <h2>05.Resume:</h2>
+    <p>To view my resume just click on this button</p>
+    <a href="https://drive.google.com/file/d/1OzunJJ6QWJ9v3DFqOPtAOksvgAMrlYEE/view?usp=sharing" target="_blank" class="btn">
+        resume 
+    </a>
+</section>
+
+<!-- JS (ALWAYS AT BOTTOM) -->
+<script src="script.js"></script>
+
+</body>
+</html>
